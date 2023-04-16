@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz Game</title>
+
+</head>
+<body>
+    <header>
+        <h4 class="timer" style="text-align: start;"></h4>
+    </header>
+    <div class="quiztime" id="intro">
+        <h1>Quiz Time!</h1>
+        <!-- finish discription of quiz game rules -->
+        <p>Put your brain to the test!</p>
+    </div>
+    <div class="container">
+        <div class="hide" id="parent-container">
+            <h2 id="question">question</h2>
+            <div class="button-list" id="answer-buttons">
+                <button class="button">16</button>
+                <button class="button">19</button>
+                <button class="button">13</button>
+                <button class="button">20</button>
+                <h3 id="correct">Correct!</h3>
+                <h3 id="wrong">Wrong!</h3>
+            </div>
+        </div>
+        <div class="controls">
+            <button class="button" id="start-btn">Start</button>
+            <button class="next-button button hide" id="next-btn">Next</button>
+            <button class="button hide" id="submit-btn">Submit</button>
+            <button class="button hide" id="clear-btn">Clear Highscores</button>
+            <button class="button hide" id="restart-btn">Restart</button>
+        </div>
+    </div>
+
+    <script src='./assets/js/script.js'></script>
+</body>
+</html>

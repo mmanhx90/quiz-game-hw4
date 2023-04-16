@@ -1,0 +1,50 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+body {
+    min-height: 100vh;
+    background-color: peachpuff;
+}
+
+.quiztime {
+    font-size: large;
+    color: rgb(24, 202, 202);
+    text-align: center;
+}
+
+div p {
+    font-size: medium;
+    color: black;
+    text-align: center;
+}
+
+.timer {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.button {
+    border-color: black;
+    border-radius: 250px;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.hide {
+    display: none;
+}
