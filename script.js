@@ -10,7 +10,7 @@ var submitBtn = document.getElementById('submit-btn')
 var clearBtn = document.getElementById('clear-btn')
 var restartBtn = document.getElementById('restart-btn')
 var answerEl = document.getElementById('answer-buttons')
-var seconds = 10
+var seconds = 60
 var parentContainer = document.getElementById('parent-container')
 var globalIndex = 0
 var shuffledQuestions, globalIndex
